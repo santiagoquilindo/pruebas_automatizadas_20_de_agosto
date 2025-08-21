@@ -1,0 +1,14 @@
+{
+  "name": "taller-jest",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "supertest": "^7.1.4"
+  }
+}
